@@ -80,3 +80,7 @@ Ao escalar de 20 para 1000 dispositivos, o sistema começaria a apresentar probl
 
 
 
+O trabalho basicamente pede para simular entre 5 e 20 dispositivos IoT enviando dados, e depois medir três coisas: o tempo médio de envio, a taxa de perda e o impacto no computador. A ideia é usar tempos aleatórios e uma chance de falha para imitar o comportamento de uma rede real, onde atrasos e erros acontecem naturalmente.
+
+A parte mais desafiadora é entender como representar esses dispositivos de forma simulada, como coletar as métricas e, principalmente, como interpretar o que esses números significam. Além disso, o trabalho pede uma análise de como tudo mudaria se, em vez de (5 a 20), tivéssemos 1000 dispositivos enviando dados ao mesmo tempo. Isso faz perceber problemas reais que aparecem em sistemas IoT maiores, como aumento de latência, mais falhas de envio, limitações de hardware e dificuldades de escalabilidade.
+
